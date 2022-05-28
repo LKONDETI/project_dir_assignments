@@ -1,22 +1,22 @@
 package ExpectionAssignment;
 
-import java.util.*;
+import java.util.Scanner;
 public class divTwoNumbers {
 
 	public static void main(String[] args) {
 		try
 		{
 			
-			int a,b;
+			float a,b;
 			
 			Scanner number=new Scanner(System.in);
 			
 			
 			System.out.print("Enter first number : ");
-			a=number.nextInt();
+			a=number.nextFloat();
        
 			System.out.print("Enter second number : ");
-			b=number.nextInt();
+			b=number.nextFloat();
        
 			
 			double result=a/b;
